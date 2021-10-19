@@ -6,10 +6,10 @@ function printN (input)
     input = input.toString()
     let arrInput = input.split('');
     let result = '';
-    arrInput.map(n => {
-        result += '${n}:'
-        for (let i = 0; i < n; i++) {
-            result += n;
+    arrInput.map(x => {
+        result += x + ':'
+        for (let i = 0; i < x; i++) {
+            result += x;
         }
         result += '\n'
     })
