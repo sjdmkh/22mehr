@@ -3,9 +3,9 @@
 // //     console.log('message: %s', message)
 // // }
 // //
-// // const writeMessage1 = function (message){
-// //     console.log('logging the message by expression')
-// //     console.log('message: %s', message)
+// const writeMessage1 = function (message){
+//     console.log('logging the message by expression')
+//     console.log('message: %s', message)
 // // }
 // //
 // // function log (message){
@@ -75,20 +75,20 @@
 // console.log(reversed);
 // console.log(x);
 
-function duplicated (str){
-    if ( let n == 0 || n == 1)
-        return n;
-    for (let i = 0; i < n-1; i++){
-        if (a[i] != a[i+1])
-            b[j++] = a[i];
-    }
-    for (int i=0; i<j; i++)
-    a[i] = b[i];
-
-    return j;
-}
-
-console.log(str)
+// function duplicated (str){
+//     if ( let n == 0 || n == 1)
+//         return n;
+//     for (let i = 0; i < n-1; i++){
+//         if (a[i] != a[i+1])
+//             b[j++] = a[i];
+//     }
+//     for (int i=0; i<j; i++)
+//     a[i] = b[i];
+//
+//     return j;
+// }
+//
+// console.log(str)
 
 // function duplicates(str){
 //     for (let char of str){
