@@ -1,8 +1,19 @@
-function star(n){
-    for (let i=1; i <= n; i++){
-        if ( i===1 || i===n) console.log('*'.repeat(n))
-        else console.log('*'+' '.repeat(n-2)+'*')
+function printN (input)
+{
+    if (!input && input !== 0){
+        return ''
     }
+    input = input.toString()
+    let arrInput = input.split('');
+    let result = '';
+    arrInput.map(n => {
+        result += '${n}:'
+        for (let i = 0; i < n; i++) {
+            result += n;
+        }
+        result += '\n'
+    })
+
+    return result;
 }
-console.log(star(6))
-console.log(star(4))
+console.log(printN('5036'))
