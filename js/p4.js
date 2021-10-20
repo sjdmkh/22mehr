@@ -8,3 +8,4 @@ function neighbourhood (str){
 }
 
 console.log(neighbourhood('aahaaabbbbkkkcccddddeeefff'))
+console.log(neighbourhood('aajaaabblbbkkkcccddrddeeefff'))
