@@ -1,5 +1,9 @@
-let x = [ 'a', 'b', 'c' ];
-let reversed = [ ...x ].reverse();
+function reverse(str){
+    let charArr = str.split('');
+    charArr.reverse();
+    let revstr = charArr.join('');
+    return revstr;
+}
 
-console.log(reversed);
-console.log(x);
+console.log(reverse('daneshkar'))
+console.log(reverse('Sajjad'))
