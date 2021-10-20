@@ -1,11 +1,12 @@
-function neighbourhood (str){
-    let result = '';
-    for (let i = 0; i < str.length; i++){
-        if ((str[i]) !== (str[i+1]))
-            result += str[i];
+function diff(str1, str2){
+    for (let i in str1){
+        for (let j in str2){
+            if (str1[i] === str2[j])
+                str1[i] = [];
+        }
     }
-    return result;
+    return str1.filter(Number);
 }
-
-console.log(neighbourhood('aahaaabbbbkkkcccddddeeefff'))
-console.log(neighbourhood('aajaaabblbbkkkcccddrddeeefff'))
+let str1 = [1, 2, 3, 4, 5, 6, 7];
+let str2 = [5, 6, 7];
+console.log(diff(str1, str2))
