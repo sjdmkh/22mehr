@@ -17,3 +17,5 @@ function printN (input)
     return result;
 }
 console.log(printN('5036'))
+console.log("-------------")
+console.log(printN('123456789'))
